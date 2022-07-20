@@ -1,0 +1,72 @@
+/* --------- google fonts -----------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* ----------Utilities Styles--------- */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.top-header {
+    display: flex;
+    justify-content: center;
+}
+
+.top-banner {
+    width: 80%;
+    display: flex;
+    background-color: #161616;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.header-info {
+    padding: 0 100px;
+}
+
+.half-width h1 {
+    color: white;
+    margin: 30px 0;
+    line-height: 80px;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.half-width p {
+    color: white;
+    padding-bottom: 10px;
+    width: 506px;
+    font-size: 16px;
+}
+
+.half-width img {
+    display: flex;
+}
+
+.btn {
+    width: fit-content;
+    margin: 30px 0;
+    padding: 16px 25px;
+    border-radius: 5px;
+    background-color: #4F46E5;
+}
+
+.btn a {
+    margin-right: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn i {
+    color: white;
+}
