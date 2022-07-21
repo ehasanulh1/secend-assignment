@@ -77,8 +77,17 @@ body {
 
 /* --------- Blog area -----------*/
 
+.container {
+    width: 1320;
+    display: flex;
+    margin: 100px 0;
+    align-items: flex-start;
+}
+
 .blogs-buttons {
     width: 312px;
+    margin-top: 24px;
+    margin-right: 20px;
     border-radius: 10px;
     background-color: #161616;
 }
@@ -98,18 +107,6 @@ body {
     text-align: center;
     text-decoration: none;
 
-}
-
-.container {
-    width: 1320;
-    display: flex;
-    margin: 100px 0;
-    align-items: flex-start;
-}
-
-.blogs-buttons {
-    margin-top: 24px;
-    margin-right: 20px;
 }
 
 .blogs-buttons ul {
@@ -227,4 +224,152 @@ hr {
 .icons i {
     color: #B9B9B9;
     padding: 16px 16px;
+}
+
+/* ----------------------
+    Media Queries
+------------------------ */
+
+/* ---------Mobile Devices-------- */
+
+@media only screen and (max-width:688px) {
+    .main {
+        width: 100%;
+    }
+
+    .top-banner {
+        width: 334px;
+        margin-top: 25px;
+        display: block;
+    }
+
+
+    .header-info {
+        padding: 0;
+    }
+
+    .half-width h1 {
+        width: 228px;
+        text-align: center;
+        margin: 30px 0;
+        line-height: 30px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .half-width p {
+        color: white;
+        padding-bottom: 10px;
+        width: 258px;
+        font-size: 16px;
+    }
+
+    .half-width img {
+        width: 270px;
+    }
+
+    .container {
+        width: 100%;
+        display: inline;
+        margin: 10px 0;
+        align-items: flex-start;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer {
+        padding: 0;
+    }
+
+    .footer-container {
+        display: inline;
+        justify-items: cente
+    }
+
+    footer h1 {
+        text-align: center;
+        padding: 0;
+    }
+
+    hr {
+        width: 734px;
+        border: 1px solid rgb(44, 44, 44);
+    }
+
+    .footer-menus {
+        text-align: center;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* ---------tablet Devices-------- */
+
+
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .top-banner {
+        width: 734px;
+    }
+
+    .header-info {
+        padding: 0;
+    }
+
+
+    .half-width h1 {
+        width: 289px;
+        text-align: center;
+        margin: 30px 0;
+        line-height: 50px;
+        font-size: 40px;
+    }
+
+    .half-width p {
+        color: white;
+        padding-bottom: 10px;
+        width: 316px;
+        font-size: 14px;
+    }
+
+    .half-width img {
+        width: 323px;
+    }
+
+    .container {
+        width: 100%;
+        display: inline;
+        margin: 10px 0;
+        align-items: flex-start;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    footer {
+        padding: 0;
+    }
+
+    .footer-container {
+        display: inline;
+        justify-items: cente
+    }
+
+    footer h1 {
+        text-align: center;
+        padding: 0;
+    }
+
+    hr {
+        width: 335px;
+    }
+
+    .footer-menus {
+        text-align: center;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
