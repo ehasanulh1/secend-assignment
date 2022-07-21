@@ -4,6 +4,7 @@
 /* ----------Utilities Styles--------- */
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 .main {
@@ -12,13 +13,15 @@ body {
     align-items: center
 }
 
+/* --------- header area -----------*/
 .top-header {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 }
 
 .top-banner {
-    width: 80%;
+    width: 1320px;
     display: flex;
     background-color: #161616;
     border-radius: 20px;
@@ -27,6 +30,7 @@ body {
 
 .half-width {
     width: 50%;
+    padding-left: 20px;
 }
 
 .header-info {
@@ -53,7 +57,7 @@ body {
 }
 
 .btn {
-    width: fit-content;
+    width: 140px;
     margin: 30px 0;
     padding: 16px 25px;
     border-radius: 5px;
@@ -69,4 +73,158 @@ body {
 
 .btn i {
     color: white;
+}
+
+/* --------- Blog area -----------*/
+
+.blogs-buttons {
+    width: 312px;
+    border-radius: 10px;
+    background-color: #161616;
+}
+
+.buttons {
+    background-color: #161616;
+
+}
+
+.button {
+    background-color: white;
+    padding: 13px 25px;
+
+}
+
+.button a {
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.container {
+    width: 1320;
+    display: flex;
+    margin: 100px 0;
+    align-items: flex-start;
+}
+
+.blogs-buttons {
+    margin-top: 24px;
+    margin-right: 20px;
+}
+
+.blogs-buttons ul {
+    width: 312px;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.blogs-buttons ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 16px 25px;
+    margin: 20px;
+    background-color: white;
+}
+
+ul li a {
+    color: #161616;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#selected {
+    background-color: #4F46E5;
+}
+
+#selected a {
+    color: white;
+}
+
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+
+.blog {
+    width: 312px;
+    margin-top: 24px;
+    border: 2px solid rgb(226, 226, 226);
+    border-radius: 12px;
+}
+
+.blog .blog-info {
+    padding: 20px;
+}
+
+.blog a {
+    text-decoration: none;
+    color: #161616;
+    padding: 3px 5px;
+    border: 2px solid #161616;
+    border-radius: 5px;
+}
+
+.blog h2 {
+    width: 100%;
+    font-size: 18px;
+    color: #161616;
+}
+
+.blog-duration span {
+    margin-right: 35px;
+    color: grey;
+}
+
+.blog-duration span i {
+    color: grey;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* --------- footer area -----------*/
+
+footer {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #161616;
+}
+
+.footer-container {
+    display: grid;
+    justify-items: center;
+}
+
+footer h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+hr {
+    width: 1320px;
+    border: 1px solid rgb(44, 44, 44);
+}
+
+.footer-menus {
+    width: 1000px;
+    font-weight: 500;
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.footer-menus a {
+    padding: 16px 16px;
+    text-decoration: none;
+    color: #B9B9B9;
+}
+
+.icons i {
+    color: #B9B9B9;
+    padding: 16px 16px;
 }
